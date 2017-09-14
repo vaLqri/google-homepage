@@ -1,0 +1,97 @@
+.logo{
+	width: 300px; height: 100px;
+	position: absolute;
+	left: 530px;
+	top: 200px;
+}
+
+.apps{
+	width: 20px; height: 20px;
+}
+
+#top{
+	word-spacing: 20px;
+	text-align: right;
+	position: absolute;
+	right: 40px;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a.hover:hover{
+	text-decoration: underline;
+}
+
+.login{
+	background-color: #4db8ff;
+	color: white;
+	font-style: bold;
+	font-weight: 900;
+	padding: 7.5px 10px;
+	border-radius: 10%;
+}
+
+.searchbar{
+	position: absolute;
+	align-self: center;
+	width: 550px;
+	height: 30px;
+	font-size: 16px;
+	left: 400px;
+	top: 340px;
+	box-shadow: 0 2px #d3d3d3;
+	border-radius: 7.5px;
+	overflow: hidden;
+
+}
+
+button{
+	position: relative;
+	left: 510px;
+	top: 380px;
+	margin: 12px;
+	height: 40px;
+	width: 130px;
+	color: grey;
+	background-color: #F0EBEB;
+	font-style:bold;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 6px;
+}
+
+button:hover{
+	color: black;
+}
+
+li{
+	display: inline;
+}
+
+
+
+.btm-right, .btm-left{
+	position: fixed;
+}
+
+.btm-right{
+	text-align: right;
+	right: 30px;
+}
+
+.btm-left{
+	text-align: left;
+}
+
+.background{
+	display: block;
+    position: absolute;
+    bottom: 0;
+    width: 7000px;
+    height: 40px;
+    background-color: #F2F2F2;
+}
